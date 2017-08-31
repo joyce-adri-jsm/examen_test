@@ -5,6 +5,7 @@ python:
 before_install: "pip install -r requirements.txt"
 script:
   #- python tests.py
-  - "python -m coverage run Version_A/test_A.py , Version_B/test_B.py"
+  #- "python -m coverage run Version_A/test_A.py"
+  - "python -m coverage run Version_B/test_B.py"
 
 after_script: "coveralls"
