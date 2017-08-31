@@ -5,11 +5,6 @@ python:
 before_install: "pip install -r requirements.txt"
 script:
   #- python tests.py
-  - "python -m coverage run Version_A/tema_1/test_caso1.py"
-
-after_script: "coveralls"
-
-script:
-  - "python -m coverage run Version_A/tema_2/test_caso2.py"
+  - "python -m coverage run Version_A/test.py"
 
 after_script: "coveralls"
