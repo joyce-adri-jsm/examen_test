@@ -1,18 +1,21 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
 def ofrecer_tarjeta_con_chip(montoEndeudamiento, tipoCliente):
     tipoTarjeta = "Clasica"
-    if tipoCliente is "AAA":
+    if tipoCliente == "AAA":
         if montoEndeudamiento >= 20000:
             tipoTarjeta = "Gold"
-    elif tipoCliente is "AA":
+    elif tipoCliente == "AA":
         if montoEndeudamiento >= 15000 and montoEndeudamiento < 20000:
             tipoTarjeta = "Platinum"
-    elif tipoCliente is "A":
+    elif tipoCliente == "A":
         if montoEndeudamiento >= 10000 and montoEndeudamiento < 15000:
             tipoTarjeta = "Internacional"
-    elif tipoCliente is "B":
+    elif tipoCliente == "B":
         if montoEndeudamiento >= 5000 and montoEndeudamiento < 10000:
             tipoTarjeta = "Club Miles"
-    elif tipoCliente is "C":
+    elif tipoCliente == "C":
         if montoEndeudamiento >= 3000 and montoEndeudamiento < 5000:
             tipoTarjeta = "Advantage"
-    return "Tipo de tarjeta: %s " % tipoTarjeta
+    return "Tipo de tarjeta: %s" % tipoTarjeta

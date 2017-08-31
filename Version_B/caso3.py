@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
 def premio_por_deposito_a_plazo_fijo(plazo, montoInversion):
     premio = "no recibe premio"
     if plazo is 120:

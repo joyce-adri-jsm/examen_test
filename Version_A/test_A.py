@@ -13,7 +13,7 @@ class Test(unittest.TestCase):
         self.assertEquals(resultado, "escala: A++ , eficiencia: los más eficientes")
 
     def test_caso2(self):
-        resultado = caso2.clasificacion_clientes(45000 ,True)
+        resultado = caso2.clasificacion_clientes(45000 , True)
         self.assertEquals(resultado, "Tipo de cliente: AAA, Envio de boletin: Si")
 
 if __name__ == '__main__':
