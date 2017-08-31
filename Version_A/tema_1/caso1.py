@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
 def etiquetado_consumo_energia(porcentaje):
     clasificacion_escala_int = "ninguna"
     rango = "ninguno"

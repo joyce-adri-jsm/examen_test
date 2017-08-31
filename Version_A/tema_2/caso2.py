@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
 def clasificacion_clientes(montoDepositado, informacionBuro):
     enviarBoletinInformativo = "No"
     clasificacionCliente = "no es digno de crédito"
